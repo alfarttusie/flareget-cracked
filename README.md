@@ -22,43 +22,50 @@
 ---
 
 ## 🚀 How to Use
-#### 1. INSTALL THE OFFICIAL VERSION
-#### 2. Clone this repository:
-   ```bash
-   git clone https://github.com/alfarttusie/flareget-cracked.git
 
-   cd flareget-cracked
+### 1. Install FlareGet (Official Version)
 
-   sudo mv flareget /usr/bin/flareget
+- Download and install FlareGet from the [official website](https://flareget.com/).
 
-   sudo chmod +x /usr/bin/flareget
+### 2. Replace Binary with Patched Version
 
-### launch flareget
+Clone this repository and replace the official binary with the patched one:
 
-Go to Help > Register.
+```bash
+git clone https://github.com/alfarttusie/flareget-cracked.git
+cd flareget-cracked
+sudo mv flareget /usr/bin/flareget
+sudo chmod +x /usr/bin/flareget
+```
 
-Enter any name, email, and license key — anything will work.
+### 3. Launch and Activate FlareGet
 
-✅ Done! FlareGet is now activated.
+- Open FlareGet.
+- Go to `Help` → `Register`.
+- Enter **any** name, email, and license key — anything will work.
 
-# 🛠 Tools Used
+✅ **Done! FlareGet is now activated.**
 
-###    radare2 — for binary analysis and patching
+---
 
-###    Linux terminal utilities (mv, chmod)
+## 🛠 Tools Used
 
-###    Hex-level editing (internally done by radare2)
+- **radare2** — binary analysis and patching.
+- **Linux terminal utilities** (`mv`, `chmod`).
+- **Hex-level editing** (handled internally by radare2).
 
-# 📝 Notes
+---
 
-###    Always back up your original flareget binary before replacing it.
+## 📝 Notes
 
-###    This patch works on the specific version 5.0.0 tested. Future updates may break it.
+- Always **back up** your original FlareGet binary before replacing it.
+- This patch has been tested specifically on **version 5.0.0**. Future updates may break it.
+- To apply the patch manually, inspect the binary using radare2 and follow the logic described here.
 
-###    If you want to apply the patch manually, you can inspect the binary in radare2 and follow the same logic used here.
+---
 
-# 📅 Author
+## 📅 Author
 
-###    Modified by: @alfarttusie
-###    Tool used: radare2
-###    Year: 2025
+- **Modified by:** [@alfarttusie](https://github.com/alfarttusie)  
+- **Tool used:** radare2  
+- **Year:** 2025
