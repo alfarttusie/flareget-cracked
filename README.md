@@ -22,8 +22,8 @@
 ---
 
 ## 🚀 How to Use
-#### INSTALL THE OFFICIAL VERSION
-1. Clone this repository:
+#### 1. INSTALL THE OFFICIAL VERSION
+#### 2. Clone this repository:
    ```bash
    git clone https://github.com/alfarttusie/flareget-cracked.git
 
